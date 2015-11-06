@@ -8,5 +8,6 @@ namespace demo1
 {
     class Buffer
     {
+        int[] x = new int[1000];
     }
 }
