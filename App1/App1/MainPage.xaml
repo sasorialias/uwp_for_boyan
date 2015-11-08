@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="button" Content="选择然后播放" HorizontalAlignment="Left" Margin="336,258,0,0" VerticalAlignment="Top" Click="button_Click"/>
+        <Button x:Name="buttonPlay" Content="播放" HorizontalAlignment="Left" Margin="336,329,0,0" VerticalAlignment="Top" Click="buttonPlay_Click"/>
+        <Button x:Name="buttonPause" Content="暂停" HorizontalAlignment="Left" Margin="386,329,0,0" VerticalAlignment="Top" Click="buttonPause_Click"/>
+        <Button x:Name="buttonStop" Content="停止" HorizontalAlignment="Left" Margin="436,329,0,0" VerticalAlignment="Top" Click="buttonStop_Click" RenderTransformOrigin="0.047,0.417"/>
+
+    </Grid>
+</Page>
